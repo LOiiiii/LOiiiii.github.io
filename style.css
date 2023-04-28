@@ -1,0 +1,207 @@
+body {
+    background-color: green;
+}
+
+.bg-green {
+    background: rgb(52, 149, 70);
+}
+
+.img-1 {
+    margin: 0 0 100px;
+}
+
+.INTRODUCT{
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.icon{
+    display: flex;
+  
+}
+
+
+.news {
+    color:seagreen;
+    
+}
+    
+
+.bg-yellow {
+    background: rgb(246, 246, 209);
+}
+
+.introduct { 
+    position: absolute;
+    top: 190vh;
+    left: 0;
+    width: 100%;
+    font-size: 300px;
+    font-weight: bold;
+    line-height: 250px;
+    letter-spacing: 25px;
+    color: aquamarine;
+    text-align:center;
+    margin-top: 400px;
+    z-index: 1;
+}
+
+.circle{
+    position: absolute;
+    top: 190vh;
+    margin-top: 800px;
+    z-index: 2;
+    width:1500px;
+    height:1000px; 
+    border-radius:50%;
+    background-color:rgb(255, 255, 255);
+}
+
+.content{
+    position: absolute;
+    top: 190vh;
+    z-index: 3;
+    text-align: center;
+    font-size: 60px;
+    margin: 1000px 200px auto;
+}
+
+.img-3 { 
+    position: absolute;
+    margin-top: 800px;
+    z-index: 2;
+}
+
+.planttips { 
+    position: absolute;
+    z-index: 1;
+    margin-top: 2380px;
+    top: 150vh;
+    left: 0;
+    width: 100%;
+    font-size: 300px;
+    font-weight: bold;
+    line-height: 250px;
+    letter-spacing: 25px;
+    color: aquamarine;
+    text-align:center
+    
+}
+
+.plant{
+    position: absolute;
+    margin-top: 2500px;
+    z-index: 2;
+}
+
+.plant-9{
+    margin-right: 100px;
+}
+
+.plant-11{
+    margin-left: 100px;
+}
+.floword{
+    position: absolute;
+    z-index: 1;
+    margin-top: 2500px;
+    top: 300vh;
+    left: 0;
+    width: 100%;
+    font-size: 300px;
+    font-weight: bold;
+    line-height: 250px;
+    letter-spacing: 25px;
+    color: aquamarine;
+    text-align:center
+}
+
+.shop-1{
+    position: absolute;
+    margin-top: 2580px;
+    margin-left: 130px;
+    top: 350vh;
+    z-index: 3;
+}
+
+.content1{
+    position: absolute;
+    top: 350vh;
+    z-index: 4;
+    font-size: 15px;
+    margin-top: 2650px;
+    margin-left: 350px;
+}
+
+.shop-2{
+    position: absolute;
+    margin-top: 2580px;
+    margin-left: 830px;
+    top: 350vh;
+    z-index: 2;
+}
+
+.content2{
+    position: absolute;
+    top: 350vh;
+    z-index: 4;
+    font-size: 15px;
+    margin-top: 2650px;
+    margin-left: 1050px;
+}
+
+.bgwhite1{
+    position: absolute;
+    margin-top: 2500px;
+    margin-left: 100px;
+    top: 350vh;
+    z-index: 1;
+    width:600px;
+    height:400px; 
+    border-radius:50px;
+    background-color:rgb(255, 255, 255);
+}
+
+.bgwhite2{
+    position: absolute;
+    margin-top: 2500px;
+    margin-left: 800px;
+    top: 350vh;
+    z-index: 1;
+    width:600px;
+    height:400px; 
+    border-radius:50px;
+    background-color:rgb(255, 255, 255);
+}
+.bottem{
+    position: absolute;
+    top: 700vh;
+    z-index: 0;
+}
+
+.share2{
+    position: absolute;
+    top: 825vh;
+    left: 600px;
+    width: 90px;
+    z-index: 3; /* 數字愈大在愈上面 */
+}
+
+.share3{
+    position: absolute;
+    top: 825vh;
+    left: 700px;
+    width: 90px;
+    z-index: 3; 
+}
+
+.share4{
+    position: absolute;
+    top: 825vh;
+    left: 800px;
+    width: 90px;
+    z-index: 3; 
+}
