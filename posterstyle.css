@@ -1,0 +1,175 @@
+.header {
+    margin-top: 3vh;
+}
+
+.left {
+    width: 20vh;
+    margin-right: 10vh;
+}
+
+.right {
+    width: 20vh;
+    margin-left: 10vh;
+}
+
+.close {
+    width: 20vh;
+}
+
+h1 {
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.poster {
+    transform: scale(0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px ;
+}
+
+@media (min-width: 1200px) {
+    .header {
+    margin-top: 3vh;
+}
+
+.left {
+    width: 20vh;
+    margin-right: 10vh;
+}
+
+.right {
+    width: 20vh;
+    margin-left: 10vh;
+}
+
+.close {
+    width: 20vh;
+}
+
+h1 {
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.poster {
+    transform: scale(0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px ;
+}
+}
+
+@media (max-width: 768px) {
+    .header {
+        margin-top: 2vh;
+    }
+    
+    .left {
+        width: 15vh;
+        margin-right: 5vh;
+    }
+    
+    .right {
+        width: 15vh;
+        margin-left: 5vh;
+    }
+    
+    .close {
+        width: 15vh;
+    }
+    
+    .title {
+        margin-top: 5vh;
+        
+
+    }
+    h1 {
+        margin-top: 60px;
+        margin-left: 38px;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    
+    .poster {
+        transform: scale(0.95);
+        margin-top: -10px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h2 {
+        font-size: 30px;
+        text-decoration: underline;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px ;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .header {
+        margin-top: 2vh;
+    }
+    
+    .left {
+        width: 12vh;
+        margin-right: 2vh;
+    }
+    
+    .right {
+        width: 12vh;
+        margin-left: 2vh;
+    }
+    
+    .close {
+        width: 12vh;
+    }
+    .title {
+        margin-top: 5vh;
+        
+
+    }
+    h1 {
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 15px;
+        text-decoration: underline;
+    }
+    
+    .poster {
+        transform: scale(0.95);
+        margin-top: -5px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h2 {
+        font-size: 15px;
+        text-decoration: underline;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px ;
+    }
+}
