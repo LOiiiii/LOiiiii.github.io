@@ -1,16 +1,16 @@
 @media (min-width: 1200px) {
+
 .row.poster {
     position: relative;
-    height: 900px; /* 设置容器高度 */
-    width: 1200px;
+    height: 1000px; /* 设置容器高度 */
     overflow: hidden; /* 隐藏溢出内容 */
 }
 
 .poster1 {
     position: absolute;
-    transform: scale(0.2) rotate(-45deg);
+    transform: scale(0.25) rotate(-45deg);
     transform-origin: top left;
-    margin-top: 55%;
+    margin-top: 80%;
     margin-left: -20%;
 }
 
@@ -18,15 +18,16 @@
     position: absolute;
     transform: scale(0.1) rotate(-30deg);
     transform-origin: top left;
-    margin-top: 32%;
+    margin-top: 72%;
+    margin-left: 20%;
     z-index: 1;
 }
 
 .poster3 {
     position: absolute;
-    transform: scale(0.25) rotate(40deg);
+    transform: scale(0.2) rotate(40deg);
     transform-origin: top left;
-    margin-top: -2%;
+    margin-top: 38%;
     margin-left: 79%;
 }
 
@@ -34,7 +35,7 @@
     position: absolute;
     transform: scale(0.2) rotate(20deg);
     transform-origin: top left;
-    margin-top: -4%;
+    margin-top: 36%;
     margin-left: 35%;
 }
 
@@ -42,15 +43,15 @@
     position: absolute;
     transform: scale(0.25) rotate(-10deg);
     transform-origin: top left;
-    margin-top: 45%;
-    margin-left: 29%;
+    margin-top: 70%;
+    margin-left: 60%;
 }
 
 .poster6 {
     position: absolute;
-    transform: scale(0.25) rotate(30deg);
+    transform: scale(0.2) rotate(30deg);
     transform-origin: top left;
-    margin-top: -3%;
+    margin-top: 35%;
     margin-left: 2%;
 }
 
@@ -66,8 +67,8 @@ h4 {
 
 .about {
     transform: rotate(38deg);
-    margin-left: 20%;
-    margin-top: -70%;
+    margin-left: 25%;
+    margin-top: -75%;
     position: absolute;
     z-index: 2;
 }
@@ -75,7 +76,7 @@ h4 {
 .share {
     transform: rotate(-35deg);
     margin-left: 64%;
-    margin-top: -38%;
+    margin-top: -45%;
     position: absolute;
     z-index: 2;
 }
@@ -83,7 +84,7 @@ h4 {
 .contact {
     transform: rotate(35deg);
     margin-left: 15%;
-    margin-top: -25%;
+    margin-top: -30%;
     position: absolute;
     z-index: 2;
 }
@@ -107,15 +108,15 @@ h4 {
       left: -10vw;
     }
     25% {
-      top: 42vh;
+      top: 35vh;
       left: calc(100vw - 35vw);  
     }
     50% {
-      top: 68vh;
-      left: calc(100vw - 85vw);
+      top: 92vh;
+      left: calc(100vw - 65vw);
     }
     75% {
-      top: 130vh;
+      top: 180vh;
       left: calc(100vw - 15vw);
 
     }
@@ -125,6 +126,7 @@ h4 {
       }
   }
 }
+
 
 
 
