@@ -1,0 +1,92 @@
+@media screen and (min-width: 1024px) {
+    .row.poster {
+        position: absolute;
+         height: 1000px;
+         width: 100%; 
+         overflow: hidden;
+    }
+ 
+     .poster1 {
+         position: absolute;
+         transform: scale(0.2) rotate(-30deg);
+         transform-origin: top left;
+         margin-left: -50%;
+         margin-top: 10%;
+     }
+ 
+     .poster2 {
+         position: absolute;
+         transform: scale(0.1) rotate(-30deg);
+         transform-origin: top left;
+         margin-top: 10%;
+         margin-left: 100%;
+     }
+ 
+     .poster3 {
+         position: absolute;
+         transform: scale(0.2) rotate(20deg);
+         transform-origin: top left;
+         margin-top: -10%;
+         margin-left: 70%;
+         z-index: -1;
+     }
+ 
+     .poster4 {
+         position: absolute;
+         transform: scale(0.2) rotate(20deg);
+         transform-origin: top left;
+         margin-top: 20%;
+         margin-left: 35%;
+     }
+ 
+     .poster5 {
+         position: absolute;
+         transform: scale(0.25) rotate(-10deg);
+         transform-origin: top left;
+         margin-top: 50%;
+         margin-right: -120%;
+     }
+ 
+     .poster6 {
+         position: absolute;
+         transform: scale(0.25) rotate(30deg);
+         transform-origin: top left;
+         margin-top: 40%;
+         margin-left: 2%;
+     }
+
+     h4 {
+        position: absolute;
+         font-size: 40px;
+         color: white;
+         letter-spacing: 5px;
+         display: inline-block;
+         background-color: #f00;
+         transform-origin: top left;
+         text-decoration: underline;
+         margin-top: 4%;
+         z-index: 2;
+     }
+     .yellow-block {
+        position: absolute;
+        top: 10;
+        left: 10;
+        width: 100%;
+        height: 20%;
+        background-color: rgba(255, 255, 0, 0.95);
+        /* border: 1px solid #000000; */
+        z-index: 1;
+    }
+     .about {
+         margin-left: 7%;
+     }
+ 
+     .share {
+        margin-left: 2%;
+     }
+ 
+     .contact {
+        margin-left: 2%;
+         
+     }
+}

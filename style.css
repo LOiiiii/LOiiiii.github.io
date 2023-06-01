@@ -1,410 +1,309 @@
-.header {
-    margin-top: 3vh;
-}
-
-.left {
-    width: 20vh;
-    margin-right: 10vh;
-}
-
-.right {
-    width: 20vh;
-    margin-left: 10vh;
-}
-
-.close {
-    width: 20vh;
-}
-
-.title {
-    margin-top: 8vh;
-    margin-left: 0.17vh;
-}
-
-h1 {
-    font-size: 20vh;
-    letter-spacing: 0.83vh;
-    margin-right: 6.67vh;
-}
-
-h2 {
-    font-size: 7.08vh;
-    letter-spacing: 0.67vh;
-    margin-right: 6.83vh;
-    line-height: 0.8;
-}
-
-h3 {
-    font-size: 7.08vh;
-    letter-spacing: 0.67vh;
-    margin-right: 8.33vh;
-}
-
-.information {
-    margin-top: 2vh;
-    margin-right: 16vh;
-}
-
-h6 {
-    line-height: 170%;
-}
-
-.img-1{
-    position: relative;
-
-}
-
-.line {
-    border: none;
-    border-top: 2px solid black;
-    margin: 20vh 0 0 100vh;
-    width: 60vh;
-}
-
-.me {
-    margin-top: 10vh;
-    margin-bottom: 5vh;
-    margin-right: 4.34vh;
-    text-align: right;
-    font-size: 4.17vh;
-    letter-spacing: 1.04vh;
-    line-height: 1.5;
-}
-
-.circle-1 {
-    position: absolute;
-    width: 10vh;
-    height: 10vh;
-    background-color: yellow;
-    border: 2px solid #000000;
-    border-radius: 50%;
-    top: 25vh; 
-    left: 83vh;
-}
-  
-.circle-2 {
-    position: absolute;
-    width: 5vh;
-    height: 5vh;
-    background-color: yellow;
-    border: 1px solid #000000;
-    border-radius: 50%;
-    top: 65vh; 
-    left: 70vh;
-}
-
-.circle-3 {
-    position: absolute;
-    width: 60vh;
-    height: 60vh;
-    background-color: yellow;
-    border: 2px solid #000000;
-    border-radius: 50%;
-    top: 110vh;
-    left: 50vh;
-}
-@media (min-width: 1200px) {
-.header {
-    margin-top: 3vh;
-}
-
-.left {
-    width: 20vh;
-    margin-right: 10vh;
-}
-
-.right {
-    width: 20vh;
-    margin-left: 10vh;
-}
-
-.close {
-    width: 20vh;
-}
-
-.title {
-    margin-top: 8vh;
-    margin-left: 0.17vh;
-}
-
-h1 {
-    font-size: 20vh;
-    letter-spacing: 0.83vh;
-    margin-right: 6.67vh;
-}
-
-h2 {
-    font-size: 7.08vh;
-    letter-spacing: 0.67vh;
-    margin-right: 6.83vh;
-    line-height: 0.8;
-}
-
-h3 {
-    font-size: 7.08vh;
-    letter-spacing: 0.67vh;
-    margin-right: 8.33vh;
-}
-
-.information {
-    margin-top: 2vh;
-    margin-right: 16vh;
-}
-
-h6 {
-    line-height: 170%;
-}
-
-
-
-.line {
-    border: none;
-    border-top: 2px solid black;
-    margin: 20vh 0 0 80vh;
-    width: 60vh;
-}
-
-.me {
-    margin-top: 10vh;
-    margin-bottom: 5vh;
-    margin-right: 4.34vh;
-    text-align: right;
-    font-size: 4.17vh;
-    letter-spacing: 1.04vh;
-    line-height: 1.5;
-}
-
-.circle-1 {
-    width: 10vh;
-    height: 10vh;
-    background-color: yellow;
-    border: 2px solid #000000;
-    border-radius: 50%;
-    top: 25vh; 
-    left: 83vh;
-}
-  
-.circle-2 {
-    width: 5vh;
-    height: 5vh;
-    background-color: yellow;
-    border: 1px solid #000000;
-    border-radius: 50%;
-    top: 65vh; 
-    left: 70vh;
-}
-
-.circle-3 {
-    width: 50vh;
-    height: 50vh;
-    background-color: yellow;
-    border: 2px solid #000000;
-    border-radius: 50%;
-    position: absolute;
-    top: 130%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-}
-
-
-
-
-
-
-
-@media (max-width: 768px) {
+@media screen and (min-width: 1024px) {
     .header {
-        margin-top: 2vh;
+        margin-top: 3vh;
+        margin-bottom: 20px;
     }
     
     .left {
-        width: 15vh;
-        margin-right: 5vh;
+        width: 20vh;
+        margin-right: 10vh;
     }
     
     .right {
-        width: 15vh;
-        margin-left: 5vh;
+        width: 20vh;
+        margin-left: 10vh;
     }
     
     .close {
-        width: 15vh;
+        width: 20vh;
     }
     
     .title {
-        margin-top: 5vh;
-
+        margin-top: 8vh;
+        margin-bottom: 20px;
     }
     
     h1 {
-        font-size: 10vh;
+        font-size: 20vh;
         letter-spacing: 0.83vh;
-        padding-right: 6.67vh;
-
-}
+        margin-left: 3vh;
+    }
+    
     h2 {
-        font-size: 8vh;
+        font-size: 7.08vh;
         letter-spacing: 0.67vh;
+        margin-left: 7vh;
         line-height: 0.8;
-        padding-right: 6.67vh;
-       
-}
-       
-       
+    }
     
     h3 {
-        font-size: 8vh;
+        font-size: 7.08vh;
         letter-spacing: 0.67vh;
-        padding-right: 8vh;
-        
+        margin-left: 7vh;
     }
     
     .information {
-        line-height: 50%;
-        margin-top: 8vh;
-        margin-left: -10vh;
+        margin-top: 2vh;
+        margin-right: 12vh;
+        margin-bottom: 20px;
     }
     
-    
-
+    h6 {
+        line-height: 170%;
+    }
     
     .line {
-        border: none;
-        border-top: 2px solid black;
-        margin: 10vh 0 0 30vh;
-        width: 60vh;
-
+        border-top: 1px solid black;
+        margin-top: 10vh;
     }
     
     .me {
-        margin-top: 10vh;
-        margin-right: 6vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        margin-right: 4.34vh;
         text-align: right;
-        font-size: 3vh;
-        letter-spacing: 1vh;
-        line-height: 1;
+        letter-spacing: 1.5vh;
     }
+    h5 {
+        line-height: 2;
+      }
     
     .circle-1 {
-        left: 45%;
-        top: 15vh;
-       
+        width: 10vh;
+        height: 10vh;
+        background-color: yellow;
+        border: 1px solid #000000;
+        border-radius: 50%;
+        position: absolute;
+        top: 25vh; 
+      left: 83vh;
     }
-
       
     .circle-2 {
-        top: 53vh;
-        left: 37vh;
-    }
-    
-    .circle-3 {
-        width: 40vh;
-        height: 40vh;
-        top: 110%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-  }
-
-
-
-  
-
-  @media (max-width: 360px) {
-    .header {
-        margin-top: 2vh;
-    }
-    
-    .left {
-        width: 12vh;
-        margin-right: 2vh;
-    }
-    
-    .right {
-        width: 12vh;
-        margin-left: 2vh;
-    }
-    
-    .close {
-        width: 12vh;
-    }
-    
-    .title {
-        margin-top: 2vh;
-
-    }
-    
-    h1 {
-        font-size: 5vh;
-        letter-spacing: 0.5vh;
-       
-    }
-    
-    h2 {
-        font-size: 3vh;
-        letter-spacing: 0.3vh;
-        line-height: 0.8;
-    }
-    
-    h3 {
-        font-size: 3vh;
-        letter-spacing: 0.5vh;
-    }
-    
-    .information {
-        margin-top: 4vh;
-        margin-left: -30vh;
-        margin-right: 12vh;
-    }
-    
-    .information h6 {
-        font-size: 8px;
-        padding: 0%;
-    }
-    
-    
-    .line {
-        border: none;
-        border-top: 2px solid black;
-        margin-top: 35vh;
-        margin-left: -22vh;
-        width: 20vh;
-
-    }
-    
-    .me {
-        margin-top: 2vh;
-        text-align: right;
-        font-size: 1vh;
-        letter-spacing: 1vh;
-        line-height: 1;
-        margin-right: -2vh;
-    }
-    
-    .circle-1 { 
         width: 5vh;
         height: 5vh;
-        left: 26vh;
-        top: 9vh;
+        background-color: yellow;
         border: 1px solid #000000;
-       
-    }
-      
-    .circle-2 {
-        display: none;
+        border-radius: 50%;
+        position: absolute;
+        top: 65vh; 
+        left: 72vh;
     }
     
     .circle-3 {
-        width: 20vh;
-        height: 20vh;
-        top: 60%;
+        width: 50vh;
+        height: 50vh;
+        background-color: yellow;
+        border: 1px solid #000000;
+        border-radius: 50%;
+        position: absolute;
+        top: 130%;
         left: 50%;
         transform: translate(-50%, -50%);
-        border: 1px solid #000000;
     }
-  }
-
-
-
-  
+    }
+    
+    
+    
+    
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        .header {
+            margin-top: 2vh;
+            margin-bottom: 20px;
+        }
+        
+        .left {
+            width: 15vh;
+            margin-right: 5vh;
+        }
+        
+        .right {
+            width: 15vh;
+            margin-left: 5vh;
+        }
+        
+        .close {
+            width: 15vh;
+        }
+        
+        .title {
+            margin-top: 5vh;
+            margin-bottom: 20px;
+    
+        }
+        
+        h1 {
+            font-size: 15vh;
+            letter-spacing: 0.83vh;
+            padding-right: 6.67vh;
+            margin-left: 2vh;
+        }
+        h2 {
+            font-size: 10vh;
+            letter-spacing: 0.67vh;
+            line-height: 0.8;
+            margin-left: 3vh;
+        }
+           
+        h3 {
+            font-size: 10vh;
+            letter-spacing: 0.67vh;
+            margin-left: 3vh;
+            
+        }
+        
+        .information {
+            margin-top: 5vh;
+            margin-right: 10vh;
+            margin-bottom: 20px;
+        }
+        
+        .line {
+            border-top: 1px solid black;
+            margin-top: 10vh;
+        }
+        
+        .me {
+            margin-top: 3vh;
+            margin-bottom: 3vh;
+            margin-right: 7vh;
+            text-align: right;
+            letter-spacing: 1vh;
+        }
+        h5 {
+            font-size: small;
+            line-height: 2;
+          }
+        
+          .circle-1 {
+            width: 8vh;
+            height: 8vh;
+            background-color: yellow;
+            border: 1px solid #000000;
+            border-radius: 50%;
+            position: absolute;
+            top: 18vh; 
+            left: 65vh;
+        }
+          
+        .circle-2 {
+            width: 5vh;
+            height: 5vh;
+            background-color: yellow;
+            border: 1px solid #000000;
+            border-radius: 50%;
+            position: absolute;
+            top: 58vh; 
+            left: 23vh;
+        }
+        
+        .circle-3 {
+            width: 45vh;
+            height: 45vh;
+            background-color: yellow;
+            border: 1px solid #000000;
+            border-radius: 50%;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+      }
+    
+    
+    
+      
+    
+      @media screen and (max-width: 767px) {
+        .header {
+            margin-top: 2vh;
+            margin-bottom: 20px;
+        }
+        
+        .left {
+            width: 12vh;
+            margin-right: 2vh;
+        }
+        
+        .right {
+            width: 12vh;
+            margin-left: 2vh;
+        }
+        
+        .close {
+            width: 12vh;
+        }
+        
+        .title {
+            margin-top: 2vh;
+            margin-bottom: 20px;
+    
+        }
+        
+        h1 {
+            font-size: 6vh;
+            letter-spacing: 0.83vh;
+            padding-right: 15vh;
+            margin-left: 2vh;
+        }
+        h2 {
+            font-size: 3vh;
+            letter-spacing: 0.5vh;
+            line-height: 0.8;
+            margin-left: 2.5vh;
+        }
+           
+        h3 {
+            font-size: 3vh;
+            letter-spacing: 0.5vh;
+            margin-left: 2.5vh;
+            
+        }
+        
+        .information {
+            display: flex;
+            flex-direction: column;
+            margin-top: -20vh;
+            margin-left: 8vh;
+            align-items: flex-end;
+        }
+        
+          h6 {
+            font-size: small;
+            margin-bottom: 2em;
+            text-align: end;
+        }
+        
+        .line {
+            border-top: 1px solid black;
+            margin-top: 3vh;
+        }
+        
+        .me {
+            margin-top: 3vh;
+            margin-bottom: 5vh;
+            text-align: right;
+            letter-spacing: 0.5vh;
+        }
+        h5 {
+            font-size: x-small;
+            line-height: 2;
+          }
+        
+        
+        .circle-3 {
+            width: 25vh;
+            height: 25vh;
+            background-color: yellow;
+            border: 1px solid #000000;
+            border-radius: 50%;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+      }
+    
+    
+    
+      

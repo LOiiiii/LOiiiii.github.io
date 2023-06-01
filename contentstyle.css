@@ -1,62 +1,64 @@
-@media (min-width: 1200px) {
 
+@media screen and (min-width: 1024px) {
 .row.poster {
     position: relative;
-    height: 1000px; /* 设置容器高度 */
-    overflow: hidden; /* 隐藏溢出内容 */
+    height: 1000px;
+    width: 100%;
+    overflow: hidden; 
 }
 
 .poster1 {
     position: absolute;
-    transform: scale(0.25) rotate(-45deg);
+    transform: scale(0.3) rotate(-45deg);
     transform-origin: top left;
-    margin-top: 80%;
+    margin-top: 40%;
     margin-left: -20%;
+    z-index: -2;
 }
 
 .poster2 {
     position: absolute;
-    transform: scale(0.1) rotate(-30deg);
+    transform: scale(0.15) rotate(-30deg);
     transform-origin: top left;
     margin-top: 72%;
-    margin-left: 20%;
+    margin-left: -6%;
     z-index: 1;
 }
 
 .poster3 {
     position: absolute;
-    transform: scale(0.2) rotate(40deg);
+    transform: scale(0.25) rotate(40deg);
     transform-origin: top left;
-    margin-top: 38%;
+    margin-top: -10%;
     margin-left: 79%;
 }
 
 .poster4 {
     position: absolute;
-    transform: scale(0.2) rotate(20deg);
+    transform: scale(0.25) rotate(20deg);
     transform-origin: top left;
-    margin-top: 36%;
+    margin-top: 16%;
     margin-left: 35%;
 }
 
 .poster5 {
     position: absolute;
-    transform: scale(0.25) rotate(-10deg);
+    transform: scale(0.3) rotate(-10deg);
     transform-origin: top left;
-    margin-top: 70%;
+    margin-top: 50%;
     margin-left: 60%;
 }
 
 .poster6 {
     position: absolute;
-    transform: scale(0.2) rotate(30deg);
+    transform: scale(0.25) rotate(30deg);
     transform-origin: top left;
     margin-top: 35%;
     margin-left: 2%;
 }
 
 h4 {
-    font-size: 80px;
+    font-size: 60px;
     color: white;
     letter-spacing: 5px;
     display: inline-block;
@@ -67,129 +69,125 @@ h4 {
 
 .about {
     transform: rotate(38deg);
-    margin-left: 25%;
-    margin-top: -75%;
-    position: absolute;
+    margin-left: 65%;
+    margin-top: -60%;
+    position: fixed;
     z-index: 2;
 }
 
 .share {
     transform: rotate(-35deg);
-    margin-left: 64%;
-    margin-top: -45%;
-    position: absolute;
-    z-index: 2;
+    margin-left: 65%;
+    margin-top: -37%;
+    position:  fixed;
+    z-index: 1;
+     
 }
 
 .contact {
-    transform: rotate(35deg);
-    margin-left: 15%;
+    transform: rotate(-35deg);
+    margin-left: 20%;
     margin-top: -30%;
-    position: absolute;
-    z-index: 2;
+    position:  fixed;
+    z-index: 1;
+    
+    
 }
 
 .circle {
-    width: 10vw;
-    height: 10vw;
-    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
     background-color: yellow;
-    border: 2px solid #000000;
-    position: relative;
-    animation: roll 3s infinite; 
-    left: -20vw;
+    border-radius: 50%;
+    animation: expandAndFadeOut 5s linear forwards;
     z-index: 3;
   }
- 
   
-  @keyframes roll {
+  @keyframes expandAndFadeOut {
     0% {
-      top: -50vh;
-      left: -10vw;
+      width: 10px;
+      height: 10px;
+      opacity: 1;
     }
-    25% {
-      top: 35vh;
-      left: calc(100vw - 35vw);  
-    }
+    
     50% {
-      top: 92vh;
-      left: calc(100vw - 65vw);
-    }
-    75% {
-      top: 180vh;
-      left: calc(100vw - 15vw);
-
-    }
-    100% {
-        top: 250vh; 
-        left: calc(100vw - 30vw);
+        width: 100px;
+        height: 100px;
+        opacity: 0.5;
       }
+
+    100% {
+      width: 200vw;
+      height: 200vw;
+      opacity: 0;
+    }
   }
 }
 
-
-
-
-
-  
-  @media (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .row.poster {
         position: relative;
-        height: 900px; /* 设置容器高度 */
-        width: 768px;
-        overflow: hidden; /* 隐藏溢出内容 */
+        height: 800px;
+        width: 100%;
+        overflow: hidden; 
     }
     
     .poster1 {
         position: absolute;
-        transform: scale(0.18) rotate(-45deg);
+        transform: scale(0.2) rotate(-45deg);
         transform-origin: top left;
-        margin-top: 45%;
+        margin-top: 30%;
         margin-left: -20%;
+        z-index: -2;
     }
     
     .poster2 {
         position: absolute;
-        transform: scale(0.08) rotate(-30deg);
+        transform: scale(0.1) rotate(-30deg);
         transform-origin: top left;
-        margin-top: 32%;
+        margin-top: 62%;
+        margin-left: -6%;
         z-index: 1;
     }
     
     .poster3 {
         position: absolute;
-        transform: scale(0.15) rotate(40deg);
+        transform: scale(0.2) rotate(40deg);
         transform-origin: top left;
-        margin-top: -2%;
+        margin-top: -10%;
         margin-left: 79%;
     }
     
     .poster4 {
         position: absolute;
-        transform: scale(0.15) rotate(20deg);
+        transform: scale(0.2) rotate(20deg);
         transform-origin: top left;
-        margin-top: 30%;
-        margin-left: 50%;
+        margin-top: 10%;
+        margin-left: 35%;
     }
     
     .poster5 {
         position: absolute;
-        transform: scale(0.15) rotate(-10deg);
+        transform: scale(0.25) rotate(-10deg);
         transform-origin: top left;
-        margin-top: 90%;
-        margin-left: 29%;
+        margin-top: 50%;
+        margin-left: 60%;
     }
     
     .poster6 {
         position: absolute;
-        transform: scale(0.15) rotate(20deg);
+        transform: scale(0.2) rotate(30deg);
         transform-origin: top left;
-        margin-top: 60%;
-        margin-left: -5%;
+        margin-top: 35%;
+        margin-left: 2%;
     }
     
     h4 {
-        font-size: 80px;
+        font-size: 60px;
         color: white;
         letter-spacing: 5px;
         display: inline-block;
@@ -199,90 +197,90 @@ h4 {
     }
     
     .about {
-        transform: rotate(30deg);
-        margin-left: 20%;
-        margin-top: -110%;
-        position: absolute;
+        transform: rotate(38deg);
+        margin-left: 65%;
+        margin-top: -60%;
+        position: fixed;
         z-index: 2;
     }
     
     .share {
         transform: rotate(-35deg);
-        margin-left: 65%;
-        margin-top: -58%;
-        position: absolute;
-        z-index: 2;
+        margin-left: 55%;
+        margin-top: -17%;
+        position:  fixed;
+        z-index: 1;
+         
     }
     
     .contact {
-        transform: rotate(35deg);
-        margin-left: 7%;
-        margin-top: -45%;
-        position: absolute;
-        z-index: 2;
+        transform: rotate(-35deg);
+        margin-left: 20%;
+        margin-top: -30%;
+        position:  fixed;
+        z-index: 1;
+        
+        
     }
     
     .circle {
-        width: 10vw;
-        height: 10vw;
-        border-radius: 50%;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 10px;
+        height: 10px;
         background-color: yellow;
-        border: 2px solid #000000;
-        position: relative;
-        animation: roll 4s infinite; 
-        left: -20vw;
+        border-radius: 50%;
+        animation: expandAndFadeOut 5s linear forwards;
         z-index: 3;
       }
       
-      @keyframes roll {
+      @keyframes expandAndFadeOut {
         0% {
-          top: -50vh;
-          left: 20vw;
+          width: 10px;
+          height: 10px;
+          opacity: 1;
         }
-        25% {
-          top: 1vh;
-          left: calc(100vw - 80vw);  
-        }
+        
         50% {
-            top: 35vh;
-            left: calc(100vw - 15vw);  
-        }
-        75% {
-            top: 75vh;
-            left: calc(100vw - 80vw);
-    
-        }
-        100% {
-            top: 130vh;
-          left: calc(100vw - 5vw);
+            width: 100px;
+            height: 100px;
+            opacity: 0.5;
           }
+    
+        100% {
+          width: 200vw;
+          height: 200vw;
+          opacity: 0;
+        }
       }
     }    
 
 
     
-    @media (max-width: 360px) {
+    /* @media screen and (max-width: 767px) {
         .row.poster {
-            position: relative;
-            height: 764px; /* 设置容器高度 */
-            width: 360px;
-            overflow: hidden; /* 隐藏溢出内容 */
+            height: 800px;
+            width: 100%;
+            overflow: hidden; 
         }
         
         .poster1 {
             position: absolute;
-            transform: scale(0.1) rotate(-35deg);
+            transform: scale(0.1) rotate(-45deg);
             transform-origin: top left;
-            margin-top: 100%;
-            margin-left: -30%;
+            margin-top: 30%;
+            margin-left: -20%;
+            z-index: -2;
         }
         
         .poster2 {
             position: absolute;
-            transform: scale(0.04) rotate(-30deg);
+            transform: scale(0.06) rotate(-60deg);
             transform-origin: top left;
-            margin-top: 120%;
-            margin-left: 50%;
+            margin-top: 132%;
+            margin-left: -14%;
             z-index: 1;
         }
         
@@ -290,32 +288,32 @@ h4 {
             position: absolute;
             transform: scale(0.1) rotate(40deg);
             transform-origin: top left;
-            margin-top: 130%;
-            margin-left: 75%;
+            margin-top: -10%;
+            margin-left: 79%;
         }
         
         .poster4 {
             position: absolute;
-            transform: scale(0.08) rotate(20deg);
+            transform: scale(0.1) rotate(20deg);
             transform-origin: top left;
-            margin-top: 85%;
-            margin-left: 30%;
+            margin-top: 30%;
+            margin-left: 40%;
         }
         
         .poster5 {
             position: absolute;
-            transform: scale(0.08) rotate(-15deg);
+            transform: scale(0.1) rotate(-10deg);
             transform-origin: top left;
             margin-top: 80%;
-            margin-left: 29%;
+            margin-left: 45%;
         }
         
         .poster6 {
             position: absolute;
             transform: scale(0.1) rotate(30deg);
             transform-origin: top left;
-            margin-top: 130%;
-            margin-left: -5%;
+            margin-top: 35%;
+            margin-left: 2%;
         }
         
         h4 {
@@ -330,61 +328,187 @@ h4 {
         
         .about {
             transform: rotate(38deg);
-            margin-left: 10%;
-            margin-top: -195%;
-            position: absolute;
+            margin-left: 65%;
+            margin-top: -60%;
+            position: fixed;
             z-index: 2;
         }
         
         .share {
             transform: rotate(-35deg);
-            margin-left: 60%;
-            margin-top: -120%;
-            position: absolute;
-            z-index: 2;
+            margin-left: 55%;
+            margin-top: -17%;
+            position:  fixed;
+            z-index: 1;
+             
         }
         
         .contact {
-            transform: rotate(35deg);
-            margin-left: 5%;
-            margin-top: -100%;
-            position: absolute;
-            z-index: 2;
+            transform: rotate(-35deg);
+            margin-left: 20%;
+            margin-top: -30%;
+            position:  fixed;
+            z-index: 1;
+            
+            
         }
         
         .circle {
-            width: 10vw;
-            height: 10vw;
-            border-radius: 50%;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 10px;
+            height: 10px;
             background-color: yellow;
-            border: 2px solid #000000;
-            position: relative;
-            animation: roll 3s infinite; 
-            left: -20vw;
+            border-radius: 50%;
+            animation: expandAndFadeOut 5s linear forwards;
             z-index: 3;
           }
           
-          @keyframes roll {
+          @keyframes expandAndFadeOut {
             0% {
-              top: -30vh;
-              left: -75vw;
+              width: 10px;
+              height: 10px;
+              opacity: 1;
             }
-            25% {
-              top: 30vh;
-              left: calc(100vw - 15vw);  
-            }
+            
             50% {
-              top: 55vh;
-              left: calc(100vw - 75vw);
-            }
-            75% {
-              top: 80vh;
-              left: calc(100vw - 1vw);
-        
-            }
-            100% {
-                top: 250vh; 
-                left: calc(100vw - 1vw);
+                width: 100px;
+                height: 100px;
+                opacity: 0.5;
               }
+        
+            100% {
+              width: 200vw;
+              height: 200vw;
+              opacity: 0;
+            }
+          } */
+        /* }     */
+
+        @media screen and (max-width: 767px) {
+            .row.poster {
+              height: 100vh;
+              width: 100%;
+              overflow: hidden;
+            }
+          
+            .poster1 {
+              position: absolute;
+              transform: scale(0.1) rotate(-45deg);
+              transform-origin: top left;
+              margin-top: 20%;
+              margin-left: -15%;
+              z-index: -2;
+            }
+          
+            .poster2 {
+              position: absolute;
+              transform: scale(0.06) rotate(-60deg);
+              transform-origin: top left;
+              margin-top: 95%;
+              margin-left: -12%;
+              z-index: 1;
+            }
+          
+            .poster3 {
+              position: absolute;
+              transform: scale(0.1) rotate(40deg);
+              transform-origin: top left;
+              margin-top: -10%;
+              margin-left: 79%;
+            }
+          
+            .poster4 {
+              position: absolute;
+              transform: scale(0.1) rotate(20deg);
+              transform-origin: top left;
+              margin-top: 30%;
+              margin-left: 40%;
+            }
+          
+            .poster5 {
+              position: absolute;
+              transform: scale(0.1) rotate(-10deg);
+              transform-origin: top left;
+              margin-top: 70%;
+              margin-left: 45%;
+            }
+          
+            .poster6 {
+              position: absolute;
+              transform: scale(0.1) rotate(30deg);
+              transform-origin: top left;
+              margin-top: 35%;
+              margin-left: 2%;
+            }
+          
+            h4 {
+              font-size: 30px;
+              color: white;
+              letter-spacing: 5px;
+              display: inline-block;
+              background-color: #f00;
+              transform-origin: top left;
+              text-decoration: underline;
+            }
+          
+            .about {
+              transform: rotate(38deg);
+              margin-left: 65%;
+              margin-top: -60%;
+              position: fixed;
+              z-index: 2;
+            }
+          
+            .share {
+              transform: rotate(-35deg);
+              margin-left: 55%;
+              margin-top: -17%;
+              position: fixed;
+              z-index: 1;
+            }
+          
+            .contact {
+              transform: rotate(-35deg);
+              margin-left: 20%;
+              margin-top: -30%;
+              position: fixed;
+              z-index: 1;
+            }
+          
+            .circle {
+              position: fixed;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              width: 10px;
+              height: 10px;
+              background-color: yellow;
+              border-radius: 50%;
+              animation: expandAndFadeOut 5s linear forwards;
+              z-index: 3;
+            }
+          
+            @keyframes expandAndFadeOut {
+              0% {
+                width: 10px;
+                height: 10px;
+                opacity: 1;
+              }
+          
+              50% {
+                width: 100px;
+                height: 100px;
+                opacity: 0.5;
+              }
+          
+              100% {
+                width: 200vw;
+                height: 200vw;
+                opacity: 0;
+              }
+            }
           }
-        }    
+          
