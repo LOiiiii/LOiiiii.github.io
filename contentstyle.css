@@ -750,6 +750,18 @@ h4 {
              left: 10%;
              top: 20%;
           }
+        .popup1{
+          transform: scale(0.3); 
+        }
+        
+        .popup2{
+          width: 70vw;
+          height: 65vw;
+        }
+
+        .Imformation{
+          font-size: 10px;
+        }
       
 
           
