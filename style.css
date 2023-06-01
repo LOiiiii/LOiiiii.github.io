@@ -89,18 +89,40 @@
         top: 65vh; 
         left: 72vh;
     }
-    
+
     .circle-3 {
-        width: 50vh;
-        height: 50vh;
+        position: absolute;
+        top: 140%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50vw;
+        height: 50vw;
         background-color: yellow;
         border: 1px solid #000000;
         border-radius: 50%;
-        position: absolute;
-        top: 130%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+        animation: expandAndFadeOut 5s linear infinite;
+        z-index: 4;
+      }
+      
+      @keyframes expandAndFadeOut {
+        0% {
+          width: 30vw;
+          height: 30vw;
+          opacity: 1;
+        }
+        
+        50% {
+            width: 100vw;
+            height: 100vw;
+            opacity: 0.8;
+          }
+    
+        100% {
+          width: 60vw;
+          height: 60vw;
+          opacity: 1;
+        }
+      }
     }
     
     
@@ -183,7 +205,7 @@
             border-radius: 50%;
             position: absolute;
             top: 18vh; 
-            left: 65vh;
+            left: 45vh;
         }
           
         .circle-2 {
@@ -193,21 +215,44 @@
             border: 1px solid #000000;
             border-radius: 50%;
             position: absolute;
-            top: 58vh; 
-            left: 23vh;
+            top: 80vh; 
+            left: 10vh;
         }
         
+    
         .circle-3 {
-            width: 45vh;
-            height: 45vh;
+            position: absolute;
+            top: 110%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 25vh;
+            height: 25vh;
             background-color: yellow;
             border: 1px solid #000000;
             border-radius: 50%;
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
+            animation: expandAndFadeOut 5s linear infinite;
+            z-index: 4;
+          }
+          
+          @keyframes expandAndFadeOut {
+            0% {
+              width: 30vw;
+              height: 30vw;
+              opacity: 1;
+            }
+            
+            50% {
+                width: 100vw;
+                height: 100vw;
+                opacity: 0.8;
+              }
+        
+            100% {
+              width: 30vw;
+              height: 30vw;
+              opacity: 1;
+            }
+          }
       }
     
     
@@ -290,18 +335,39 @@
             line-height: 2;
           }
         
-        
         .circle-3 {
-            width: 25vh;
-            height: 25vh;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 30vw;
+            height: 30vw;
             background-color: yellow;
             border: 1px solid #000000;
             border-radius: 50%;
-            position: absolute;
-            top: 60%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
+            animation: expandAndFadeOut 5s linear infinite;
+            z-index: 4;
+          }
+          
+          @keyframes expandAndFadeOut {
+            0% {
+              width: 30vw;
+              height: 30vw;
+              opacity: 1;
+            }
+            
+            50% {
+                width: 100vw;
+                height: 100vw;
+                opacity: 0.8;
+              }
+        
+            100% {
+              width: 30vw;
+              height: 30vw;
+              opacity: 1;
+            }
+          }
       }
     
     
