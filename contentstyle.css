@@ -93,7 +93,7 @@ h4 {
     
 }
 
-.circle {
+/* .circle {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -124,7 +124,7 @@ h4 {
       height: 200vw;
       opacity: 0;
     }
-  }
+  } */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -222,7 +222,7 @@ h4 {
         
     }
     
-    .circle {
+    /* .circle {
         position: fixed;
         top: 50%;
         left: 50%;
@@ -253,7 +253,7 @@ h4 {
           height: 200vw;
           opacity: 0;
         }
-      }
+      } */
     }    
 
 
@@ -351,7 +351,7 @@ h4 {
         z-index: 2;
     }
     
-    .circle {
+    /* .circle {
         top: 50%;
         left: 50%;
         position: absolute;
@@ -382,7 +382,7 @@ h4 {
           height: 200vw;
           opacity: 0;
         }
-      }
+      } */
     }
 
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
@@ -466,7 +466,7 @@ h4 {
       opacity: 0;
       pointer-events: none;
       box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
-      transform: translate(-50%, -50%) scale(1.2);
+      transform: translate(-50%, -50%) scale(1);
       transition: top 0s 0.2s ease-in-out, opacity 0.2s 0s ease-in-out, transform 0.2s 0s ease-in-out;
       z-index: 5;
     }
@@ -750,21 +750,16 @@ h4 {
              left: 10%;
              top: 20%;
           }
-        .popup1{
-          transform: scale(0.3); 
-        }
         
-        .popup2{
+        .popup2 {
           width: 70vw;
           height: 65vw;
         }
 
-        .Imformation{
+        .Imformation{ 
           font-size: 10px;
         }
       
-
-          
-    }
+      }
     
 
