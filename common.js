@@ -1,8 +1,9 @@
-window.addEventListener('scroll', function() {
-    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    var yellowContainer = document.querySelector('.yellow-block');
-    var h4 = document.querySelector('h4');
+const circle = document.querySelector('.circle');
+const posters = document.querySelectorAll('.poster a');
 
-    yellowContainer.style.transform = 'translateY(' + scrollTop + '0px)';
-    h4.style.transform = 'translateY(' + scrollTop + '0px)';
+circle.addEventListener('animationend', () => {
+  circle.remove();
+  posters.forEach(poster => {
+    poster.style.pointerEvents = 'auto';
+  });
 });
